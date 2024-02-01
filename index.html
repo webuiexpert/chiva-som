@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/CustomStyles.css" />
+  <link rel="stylesheet" href="css/CustomResponsive.css" />
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="mask"></div>
+  <header class="fixed-top" style="z-index: 4;" id="scrolled">
+    <div class="container">
+      <div class="row">
+        <!-- NAVIGATION AND HEADER -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown position-static">
+                  <div class="nav-link f-jost active dropdown-toggle hamberger" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </div>
+                  <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Home</a></li>
+                    <li><a class="dropdown-item" href="#">Explore</a></li>
+                    <li><a class="dropdown-item" href="#">Chiva-som Hua Hin</a></li>
+                    <li><a class="dropdown-item" href="#">Zulal Wellness Resort by Chiva-Som</a></li>
+                    <li><a class="dropdown-item" href="#">Wellness Philosophy</a></li>
+                    <li><a class="dropdown-item" href="#">Blogs and News</a></li>
+                    <li><a class="dropdown-item" href="#">History</a></li>
+                    <li><a class="dropdown-item" href="#">Sustainability</a></li>
+                    <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                    <li><a class="dropdown-item" href="#">Chiva-Som Boutique</a></li>
+                    <li><a class="dropdown-item" href="#">Chiva-Som International Academy</a></li>
+                    <li><a class="dropdown-item" href="#">Chiva-Som International Academy</a></li>
+                  </ul>
+
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link f-jost dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    En
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <li><a class="dropdown-item f-jost" href="#">English</a></li>
+                    <li><a class="dropdown-item f-jost" href="#">French</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <a class="navbar-brand me-auto" href="#">
+                <img src="images/logo.svg" alt="Logo">
+                <img src="images/logo-colored.svg" alt="Logo">
+                <img src="images/logo-scrolled.svg" alt="Logo">
+              </a>
+              <div class="d-flex d-flex align-items-center gap-4 icons">
+                <span class="fontsize-20">
+                  <!-- <img src="images/search-ico.svg" alt="Search"> -->
+                  <i class="bi bi-search"></i>
+                </span>
+                <span class="fontsize-28">
+                  <!-- <img src="images/user-ico.svg" alt="User"> -->
+                  <i class="bi bi-person"></i>
+                </span>
+                <span class="fontsize-20">
+                  <!-- <img src="images/phone-ico.svg" alt="Phone"> -->
+                  <i class="bi bi-telephone"></i>
+                </span>
+                <button class="rounded-pill btn btn-white f-jost btn-47 btn-txtfit">Booking</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- VIDEO CAROUSEL -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner-1.jpg" alt="banner-1" class="w-100 img-fluid">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>A beautiful sanctuary where enrichment thrives and <span style="font-style: italic">lives change</span> .</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video controls autoplay muted fullscreen>
+          <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>A beautiful sanctuary where enrichment thrives and <span style="font-style: italic">lives change.</h2>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <video controls autoplay muted fullscreen>
+          <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+        </video>
+      </div> -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- HISTORY SECTION -->
+  <section class="container-fluid py-80 half-contentimg">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-md-0 mb-5">
+          <h1 class="textcolor-Chestnut mb-3">Chiva-Som <span style="font-style: italic;">History</span></h1>
+          <p class="mb-md-5 f-jost">Chiva-Som’s approach to wellness is holistic. Mind, <span class="textcolor-Chestnut">
+              Body and Spirit</span> are rejuvenated, empowered and energised. Balance is everything.
+          </p>
+          <button class="rounded-pill btn-outline-secondary f-jost btn btn-47 btn-txtfit border-1 text-uppercase">Explore more</button>
+        </div>
+        <div class="col-md-6">
+          <img src="images/yoga.jpg" alt="yoga" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PICTURE SECTION -->
+  <section class="container-fluid position-relative p-0 leafy-bg">
+    <img src="images/bg-leafy.jpg" alt="bg" class="bg-leafy w-100">
+    <div class="container container translate-middle-x start-50 position-absolute top-30">
+      <div class="row">
+        <img src="images/roaming.jpg" alt="roaming">
+      </div>
+    </div>
+  </section>
+
+  <!-- WELLNESS SLIDER -->
+  <section class="container-fluid bg-Isabelline wellness">
+    <div class="container">
+      <div class="content-section text-center mt-5 col-md-10 mx-auto">
+        <h6 class="text-uppercase mb-4 f-jost">Wellness Philosophy</h6>
+        <p>Our wellness offers blends elements drawn from six wellness modalities.</p>
+        <button class="text-uppercase rounded-pill btn-outline-secondary f-jost btn btn-47 btn-txtfit border-1">Explore
+          more</button>
+      </div>
+
+      <div class="owl-carousel wellness-carousel owl-theme">
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness1.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body bg-transparent">
+              <h5 class="card-title">Retreat and Reconnect</h5>
+              <p class="card-text f-jost">
+                You may know your goals, or you may need help to unearth them when you arrive at Hua Hin. Either way,
+                the first step to
+                making a positive change is to embark on the retreat that brings the future you seek into view.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness2.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Activities</h5>
+              <p class="card-text f-jost">
+                The activities we offer are wide-ranging and ever-evolving. No day need ever be the same. Joining group
+                sessions brings
+                you together with like-minded guests while one-to- ones continue the focus of your personal progress.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness3.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Treatments</h5>
+              <p class="card-text f-jost">
+                Eastern principles meet western modernity in our menu of treatments for the Mind, Body and Spirit. Be
+                pampered, healed
+                or both.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness4.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Health Practitioners</h5>
+              <p class="card-text f-jost">
+                Our resort is unequivocally beautiful, but it is the quality of our Practitioners, both resident and
+                visiting, that
+                makes the experience exceptional.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness5.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Wellness Cuisine</h5>
+              <p class="card-text f-jost">
+                Indulge yourself in our award-winning Wellness Cuisine using naturally grown fruits and vegetables, some
+                of which are
+                from Chiva-Som’s own gardens.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness1.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body bg-transparent">
+              <h5 class="card-title">Retreat and Reconnect</h5>
+              <p class="card-text f-jost">
+                You may know your goals, or you may need help to unearth them when you arrive at Hua Hin. Either way,
+                the first step to
+                making a positive change is to embark on the retreat that brings the future you seek into view.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness2.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Activities</h5>
+              <p class="card-text f-jost">
+                The activities we offer are wide-ranging and ever-evolving. No day need ever be the same. Joining group
+                sessions brings
+                you together with like-minded guests while one-to- ones continue the focus of your personal progress.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness3.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Treatments</h5>
+              <p class="card-text f-jost">
+                Eastern principles meet western modernity in our menu of treatments for the Mind, Body and Spirit. Be
+                pampered, healed
+                or both.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness4.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Health Practitioners</h5>
+              <p class="card-text f-jost">
+                Our resort is unequivocally beautiful, but it is the quality of our Practitioners, both resident and
+                visiting, that
+                makes the experience exceptional.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness5.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Wellness Cuisine</h5>
+              <p class="card-text f-jost">
+                Indulge yourself in our award-winning Wellness Cuisine using naturally grown fruits and vegetables, some
+                of which are
+                from Chiva-Som’s own gardens.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card border-0">
+            <img src="images/wellness3.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Retreat and Reconnect</h5>
+              <p class="card-text f-jost">
+                You may know your goals, or you may need help to unearth them when you arrive at Hua Hin. Either way,
+                the first step to
+                making a positive change is to embark on the retreat that brings the future you seek into view.
+              </p>
+            </div>
+            <div class="card-link f-jost-n bordered">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS SECTION -->
+  <section class="container-fluid bg-cultured destination" style="padding-top:80px;padding-bottom: 95px;">
+    <div class="container">
+      <div class="content-section text-center col-md-10 mx-auto">
+        <h2>Our Destinations</h2>
+        <p class="f-jost">For more than 25 years, the company behind the award-winning Chiva-Som has been a pioneer in
+          transformative wellness
+          practices to global acclaim. Its commitment to an innovative, holistic approach which expertly balances
+          mind, body and
+          spirit, continues to this day with its flagship resort in Hua Hin, Thailand and the latest addition to the
+          Chiva-Som
+          family - Zulal Wellness Resort in Khasooma, Qatar.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-md-0 mb-5">
+          <img src="images/thailand.jpg" alt="thailand" class="img-fluid">
+          <div class="col-content-section text-center">
+            <h6 class="text-uppercase f-jost">Thailand</h6>
+            <h2 class="mb-4">Chiva-Som Hua Hin</h2>
+            <p class="f-jost">Chiva-Som in Hua Hin, Thailand, is Asia’s renowned and pioneering destination wellness resort. The
+              beachfront resort’s
+              programme brings together Western diagnostic skills and Eastern philosophies to revitalise the mind, body
+              and spirit.
+            </p>
+            <button class="text-uppercase  f-jost-n rounded-pill btn-outline-secondary btn btn-47 btn-txtfit border-1">Explore
+              more</button>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0 mb-5">
+          <img src="images/qatar.jpg" alt="Qatar" class="img-fluid">
+          <div class="col-content-section text-center">
+            <h6 class="f-jost text-uppercase">Qatar</h6>
+            <h2 class="mb-4 ">Zulal Wellness Resort</h2>
+            <p class="f-jost">Zulal Wellness Resort is a pioneering destination in the Middle East that blends Traditional Arabic &
+              Islamic Medicine
+              with a holistic health and wellbeing philosophy, established by Chiva-Som, the internationally-acclaimed
+              wellness resort
+              in Thailand.
+            </p>
+            <button class="text-uppercase f-jost-n rounded-pill btn-outline-secondary btn btn-47 btn-txtfit border-1">Explore
+              more</button>
+          </div>
+        </div>
+        <div class="col-10 mx-auto coverimg">
+          <img src="images/destination-.jpg" alt="destination" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEIGHLIGHT SECTION -->
+  <section class="container-fluid bg-Isabelline heighlight">
+    <div class="container">
+      <div class="content-section text-center col-md-10 mx-auto">
+        <h6 class="text-uppercase">Highlight</h6>
+        <ul class="d-flex flex-wrap align-items-center justify-content-center gap-3 breadcumbnav">
+          <li class="highlight">Chiva-Som</li>
+          <li>Zulal Serenity</li>
+          <li>Zulal Discovery</li>
+        </ul>
+      </div>
+
+      <ul class="nav nav-tabs justify-content-center f-jost mb-4 border-0" id="myTab" role="tablist">
+        <li class="nav-item " role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+            role="tab" aria-controls="home" aria-selected="true">Activities</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">Events</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button"
+            role="tab" aria-controls="messages" aria-selected="false">Offers</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button"
+            role="tab" aria-controls="settings" aria-selected="false">Co-Retreat</button>
+        </li>
+      
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane fade in show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+          <div class="owl-carousel heighlightcarousel owl-theme">
+            <section class="item">
+              <div class="card border-0">
+                <img src="images/heighlight1.jpg" class="card-img-top" alt="Activity">
+                <div class="card-body bg-transparent text-start">
+                  <h4 class="card-title">Genomic Testing</h4>
+                  <p class="card-text f-jost">
+                    Genomic testing looks at the ways in which our genes interact with our environment, diet and lifestyle choices, and how those interactions can affect our ...
+                  </p>
+                  <div class="more-btn border-bottom border-2 border-dark" style="width: fit-content;">
+                    <a href="#" class="f-jost-n">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="item">
+              <div class="card border-0">
+                <img src="images/heighlight2.jpg" class="card-img-top" alt="Activity">
+                <div class="card-body bg-transparent text-start">
+                  <h4 class="card-title">Meet Kamlesh, our Yoga Instructor</h4>
+                  <p class="card-text f-jost">
+                    Kamlesh has a passion for sharing knowledge and his beliefs in the Yoga ‘way of life’. For him, Yoga is a perfect tool for harmonizing body and mind.
+                  </p>
+                  <div class="more-btn border-bottom border-2 border-dark" style="width: fit-content;">
+                    <a href="#" class="f-jost-n">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="item">
+              <div class="card border-0">
+                <img src="images/heighlight3.jpg" class="card-img-top" alt="Activity">
+                <div class="card-body bg-transparent text-start">
+                  <h4 class="card-title">Outdoor Activity</h4>
+                  <p class="card-text f-jost">
+                    Being active on the beach, in the sea and within the neighbouring land adds another dimension to your health experience.
+                  </p>
+                  <div class="more-btn border-bottom border-2 border-dark" style="width: fit-content;">
+                    <a href="#" class="f-jost-n">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="item">
+              <div class="card border-0">
+                <img src="images/heighlight1.jpg" class="card-img-top" alt="Activity">
+                <div class="card-body bg-transparent text-start">
+                  <h4 class="card-title">Olivia D.</h4>
+                  <p class="card-text f-jost">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra non neque posuere placerat.
+                    Quisque ut magna
+                    mauris. Pellentesque tristique urna sed ullamcorper ultricies. Curabitur cursus ex.
+                  </p>
+                  <div class="more-btn border-bottom border-2 border-dark" style="width: fit-content;">
+                    <a href="#" class="f-jost-n">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          Tab2
+        </div>
+        <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+          Tab3
+        </div>
+        <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+          Tab4
+        </div>
+       
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOGS & NEWS SECTION -->
+  <section class="container-fluid bg-Isabelline blog-news">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center py-5">Blogs and News</h2>
+        <div class="col-lg-6 mb-lg-0 mb-4">
+          <img src="images/blog1.jpg" alt="blog1" class="img-fluid mb-3">
+          <ul class="d-flex singledot p-0 f-jost-n gap-2">
+            <li><span>News</span></li>
+            <li><span>9 AUG 2023</span></li>
+          </ul>
+          <h5 class="mb-3">Chiva-Som Resorts in Thailand and Qatar Celebrate International Day for the Conservation of
+            the Mangrove
+            Ecosystem.
+          </h5>
+          <p class="f-jost">Pioneer in transformative wellness and sustainability in travel Chiva-Som marked International Day for the
+            Conservation
+            of the Mangrove Ecosystem 2023 across Asia, with mangrove ...
+          </p>
+        </div>
+
+        <div class="col-lg-6">
+          <article class="row mb-lg-0 mb-4">
+            <div class="col-md-5">
+              <img src="images/blog-2.jpg" alt="blog-2" class="img-fluid w-100 mb-md-0 mb-3">
+            </div>
+            <div class="col-md-7">
+              <ul class="d-flex flex-wrap singledot p-0 gap-md-2 gap-1 f-jost-n">
+                <li><span>WELLNESS ARTICLES</span></li>
+                <li><span>21 JUL 2023</span></li>
+              </ul>
+              <h5>How To Manage Chronic Pain: Holistic Strategies...</h5>
+              <p class="f-jost">Chronic pain affects not only the body, but also the mind. Learn...</p>
+            </div>
+          </article>
+
+          <article class="row mb-lg-0 mb-4">
+            <div class="col-md-5">
+              <img src="images/blog-3.jpg" alt="blog-2" class="img-fluid w-100 mb-md-0 mb-3">
+            </div>
+            <div class="col-md-7">
+              <ul class="d-flex flex-wrap singledot p-0 gap-md-2 gap-1 f-jost-n">
+                <li><span>WELLNESS ARTICLES</span></li>
+                <li><span>21 JUL 2023</span></li>
+              </ul>
+              <h5>How To Achieve Mental and Emotional Balance...</h5>
+              <p class="f-jost">Good health begins with balance in mind, body and spirit...</p>
+            </div>
+          </article>
+
+          <article class="row mb-lg-0 mb-4">
+            <div class="col-md-5">
+              <img src="images/blog-4.jpg" alt="blog-2" class="img-fluid w-100 mb-md-0 mb-3">
+            </div>
+            <div class="col-md-7">
+              <ul class="d-flex flex-wrap singledot p-0 gap-md-2 gap-1 f-jost-n">
+                <li><span>WELLNESS ARTICLES</span></li>
+                <li><span>21 JUL 2023</span></li>
+              </ul>
+              <h5>How to Improve Your Wellbeing: The Healing...</h5>
+              <p class="f-jost">Being in the great outdoors and surrounding yourself with nature...</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="text-uppercase rounded-pill f-jost-n btn-outline-secondary btn btn-47 btn-txtfit border-1">
+          View all Blogs and News
+        </button>
+      </div>
+      <div class="col-10 mx-auto coverimg"><img src="images/blog-banner.png" alt="" class="img-fluid"></div>
+    </div>
+  </section>
+
+  <!-- AWARADS SECTION -->
+  <section class="container-fluid bg-Isabelline awards">
+    <div class="container">
+      <div class="col-9 mx-auto text-center">
+        <h6 class="mb-3 text-uppercase f-jost">Awards</h6>
+        <p class="fontsize-32 mb-5 lh-40">
+          Chiva-Som has been honoured with one of the industry’s most sought-after accolades, having been voted the
+          winner of the
+          ‘Best Destination Spas in the World’ category in the Condé Nast Traveler Readers' Choice Awards.
+        </p>
+      </div>
+      <div class="row col-9 mx-auto mb-5 text-center">
+        <div class="col-md-2 mb-md-0 mb-4">
+          <img src="images/award1.png" alt="">
+        </div>
+        <div class="col-md-2 mb-md-0 mb-4">
+          <img src="images/award2.png" alt="">
+        </div>
+        <div class="col-md-2 mb-md-0 mb-4">
+          <img src="images/award3.png" alt="">
+        </div>
+        <div class="col-md-2 mb-md-0 mb-4">
+          <img src="images/award1.png" alt="">
+        </div>
+        <div class="col-md-2 mb-md-0 mb-4">
+          <img src="images/award2.png" alt="">
+        </div>
+        <div class="col-md-2 mb-md-0 mb-4">
+          <img src="images/award3.png" alt="">
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="rounded-pill btn-outline-secondary btn btn-47 btn-txtfit border-1 f-jost-n text-uppercase">
+          View all awards
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL SECTION -->
+  <section class="container-fluid bg-grycrayola textcolor-white testimonial">
+    <div class="container">
+      <h2 class="text-center py-5">Testimonial</h2>
+      <div class="owl-carousel testimonial-carousel owl-theme">
+        <section class="item">
+          <div class="card border-0">
+            <img src="images/testimonila1.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body bg-transparent text-center">
+              <h4 class="card-title">Olivia D.</h4>
+              <p class="card-text f-jost">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra non neque posuere placerat.
+                Quisque ut magna
+                mauris. Pellentesque tristique urna sed ullamcorper ultricies. Curabitur cursus ex.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="item">
+          <div class="card border-0">
+            <img src="images/testimonila2.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body bg-transparent text-center">
+              <h4 class="card-title">James J.</h4>
+              <p class="card-text f-jost">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra non neque posuere placerat.
+                Quisque ut magna mauris. Pellentesque tristique urna sed ullamcorper ultricies. Curabitur cursus ex.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="item">
+          <div class="card border-0">
+            <img src="images/testimonila1.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body bg-transparent text-center">
+              <h4 class="card-title">Olivia D.</h4>
+              <p class="card-text f-jost">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra non neque posuere placerat.
+                Quisque ut magna
+                mauris. Pellentesque tristique urna sed ullamcorper ultricies. Curabitur cursus ex.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="item">
+          <div class="card border-0">
+            <img src="images/testimonila2.jpg" class="card-img-top" alt="Wellness">
+            <div class="card-body bg-transparent text-center">
+              <h4 class="card-title">James J.</h4>
+              <p class="card-text f-jost">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra non neque posuere placerat.
+                Quisque ut magna mauris. Pellentesque tristique urna sed ullamcorper ultricies. Curabitur cursus ex.
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SUSTAINABILITY SECTION -->
+  <section class="container-fluid bg-Isabelline sustainability">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto mb-5">
+          <div class="row">
+            <div class="col-lg-4 text-break text-lg-start text-center">
+              <h1 class="textcolor-Chestnut">Sustainability <em> at</em> Chiva-Som</h1>
+            </div>
+            <div class="col-lg-8 ps-md-4 text-lg-start text-center">
+              <p class="fontsize-20 mb-0 f-jost">
+                We believe personal wellness goes hand-in-hand with environmental wellness and that companies should conduct themselves
+                using responsible and ethical business practices, policies and initiatives. That’s why, since opening in
+                1995, we have nurtured a healthy, safe and vibrant community, operated as an integral part of Hua Hin and played our
+                part in protecting the Earth.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center d-md-flex gap-3 justify-content-center">
+          <button class="text-uppercase rounded-pill btn-dark btn btn-47 btn-txtfit mb-md-0 mb-4 f-jost-n textcolor-white">
+            Explore more
+          </button>
+          <button class="text-uppercase rounded-pill btn-outline-secondary btn btn-47 btn-txtfit f-jost-n">
+            Read sustainability policy
+          </button>
+        </div>
+      </div>
+
+      <div class="owl-carousel Sustainability-carousel owl-theme">
+        <div class="item">
+          <img src="images/sustain1.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain2.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain3.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain4.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain5.jpg" alt="sustai-1">>
+        </div>
+        <div class="item">
+          <img src="images/sustain6.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain7.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain1.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain2.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain3.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain4.jpg" alt="sustai-1">
+        </div>
+        <div class="item">
+          <img src="images/sustain5.jpg" alt="sustai-1">>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER POSTER SECTION -->
+  <section class="container-fluid p-0 footer-poster position-relative">
+    <div class="d-flex">
+      <img src="images/footer-poster.jpg" alt="Poster" class="w100 img-fluid">
+      <div class="text-center position-absolute translate-middle start-50 top-50">
+        <button class="rounded-pill btn-white btn btn-47 btn-txtfit f-jost">READY TO BOOK</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="container-fluid">
+    <section class="container">
+      <div class="row">
+        <section class="col-md-6 col-lg-3 listing order-lg-0 order-1">
+          <ul class="social d-flex gap-2">
+            <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img src="images/twitter.svg" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/youtube.svg" alt="Youtube"></a></li>
+            <li><a href="#"><img src="images/whatsapp.svg" alt="Whatsapp"></a></li>
+            <li><a href="#"><img src="images/LINE.svg" alt="Line"></a></li>
+          </ul>
+
+          <ul class="pagelinks f-jost">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Work with us</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Chiva-Som Academy</a></li>
+            <li><a href="#">Chiva-Som Boutique</a></li>
+          </ul>
+        </section>
+
+        <section class="col-lg-5 text-center mb-lg-0 mb-5 order-0">
+          <img src="images/footer-logo.svg" alt="Logo">
+        </section>
+
+        <section class="col-md-6 col-lg-4 order-2 order-lg-0 mb-lg-0 ">
+          <h4>Newsletter</h4>
+          <form action="">
+            <section class="row mb-4 f-jost">
+              <div class="col-3">
+                <div class="border-bottom border-dark pb-2">
+                  <select class="form-select border-0 rounded-0 ps-0">
+                    <option selected>Miss</option>
+                    <option value="1">Mr</option>
+                    <option value="2">Mrs</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="border-bottom border-dark pb-2">
+                  <input type="text" class="form-control border-0 rounded-0 ps-0" placeholder="Enter your name">
+                </div>
+              </div>
+            </section>
+            <section class="row mb-4">
+              <div class="col">
+                <div class="border-bottom border-dark pb-2">
+                  <input type="email" class="form-control border-0 rounded-0 ps-0"
+                    placeholder="Enter your email address">
+                </div>
+              </div>
+            </section>
+            <button class="rounded-pill btn-outline-secondary btn btn-47 btn-txtfit border-1 f-jost text-uppercase">Subscribe</button>
+          </form>
+        </section>
+
+        <section class="sitemap order-lg-0 order-3 mt-md-0 mt-5">
+          <ul class="d-flex flex-wrap singledot p-0 gap-2 f-jost">
+            <li><span><a href="#">Site map</a></span></li>
+            <li><span><a href="#"> Privacy Policy</a></span></li>
+            <li><span><a href="#">Regulations</a></span></li>
+            <li><span><a href="#">Media Hub</a></span></li>
+            <li><span><a href="#">Brochure</a></span></li>
+            <li><span><a href="#">FAQs</a></span></li>
+          </ul>
+        </section>
+
+      </div>
+    </section>
+  </footer>
+
+
+  <!--  -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--  -->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+.chivasom-wrapper .heighlight .owl-carousel .card .sub-title {
+    font-size: 24px;
+}
+
+.chivasom-wrapper .blog-news {
+    padding-bottom: 120px;
+}
+
+.chivasom-wrapper .heighlight .heighlightcarousel h4.card-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.chivasom-wrapper .heighlight .heighlightcarousel .sub-title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.chivasom-wrapper .online-store {
+    padding-bottom: 95px;
+}
+
+.chivasom-wrapper .online-store .overlay-logo {
+    width: 32%;
+    transform: translate(0, -50%);
+    top: 50%;
+    position: absolute;
+    right: -12%;
+
+}
+
+.chivasom-wrapper .online-store .content {
+    font-size: 24px;
+}
+
+.chivasom-wrapper .retreats .nav-tabs .nav-link.active {
+    background: none;
+    color: #947254;
+}
+
+.chivasom-wrapper .retreats .nav-tabs .nav-link {
+    border: 0;
+    text-align: left;
+}
+
+.chivasom-wrapper .accomodation {
+    padding-top: 100px;
+    padding-bottom: 95px;
+}

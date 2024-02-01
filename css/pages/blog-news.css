@@ -1,0 +1,46 @@
+.BlogNews-wrapper header .nav-link,
+.BlogNews-wrapper header .icons,
+.navbar-toggler {
+    color: #202020;
+}
+
+.BlogNews-wrapper header .dropdown-toggle.hamberger:before {
+    border-top: 2px solid #202020;
+    border-bottom: 2px solid #202020;
+}
+
+.BlogNews-wrapper .blogs h1 {
+    font-size: 24px;
+}
+
+.BlogNews-wrapper .blogs p {
+    font-size: 20px;
+}
+
+.BlogNews-wrapper .reivews .card-title {
+    font-size: 24px;
+}
+
+.BlogNews-wrapper .reivews .card-subtitle {
+    font-size: 18px;
+    color: #947254;
+    margin-bottom: 15px;
+}
+
+.BlogNews-wrapper .blog-carousel .item .breadcrumb li {
+    color: #947254;
+    text-transform: uppercase;
+}
+
+.BlogNews-wrapper .social-breadcrumb .breadcrumb li {
+    color: #947254;
+    text-transform: uppercase;
+}
+
+.BlogNews-wrapper header img[src*="logo-colored.svg"] {
+    display: block;
+}
+
+.BlogNews-wrapper header.navbarscrolled img[src*="logo-colored.svg"] {
+    display: none;
+}

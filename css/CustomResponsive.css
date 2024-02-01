@@ -1,0 +1,142 @@
+@media only screen and (max-width:1399px) {
+    .wellness {
+        padding-top: 230px;
+    }
+
+    .sustainability h1 {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .half-contentimg h1 {
+        font-size: 45px;
+    }
+
+    .wellness {
+        padding-top: 170px;
+    }
+
+    /* ZULAL PAGE */
+    .zulal-wrapper .accomodation-carousel h1.fontsize-40 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .half-contentimg h1 {
+        font-size: 35px;
+    }
+
+    .leafy-bg div.top-30 {
+        top: 45%;
+    }
+
+    .wellness {
+        padding-top: 130px;
+    }
+
+    .wellness .content-section p {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .wellness-carousel h5.card-title {
+        font-size: 24px;
+    }
+
+    .wellness-carousel .card-text {
+        font-size: 16px;
+    }
+
+    .owl-theme .owl-dots {
+        display: none;
+    }
+
+    .awards .fontsize-32 {
+        font-size: 25px;
+    }
+
+    .sustainability h1 {
+        font-size: 45px;
+    }
+
+    /* PAGE 2 */
+    .chivasom-wrapper .online-store .overlay-logo {
+        transform: translate(-50%, -50%);
+        right: inherit;
+        left: 50%;
+    }
+
+    .chivasom-wrapper .online-store h2 {
+        font-size: 35px;
+    }
+
+    .chivasom-wrapper .online-store .content {
+        font-size: 18px;
+    }
+
+    .chivasom-wrapper .accomodation .accomodation-carousel .content h1.fontsize-40 {
+        font-size: 35px;
+    }
+
+    .chivasom-wrapper .accomodation .accomodation-carousel .content p.fontsize-20 {
+        font-size: 18px;
+    }
+
+    /* ZULAL PAGE */
+    .zulal-wrapper .accomodation-carousel h1.fontsize-40 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:891px) {
+    .wellness {
+        padding-top: 270px;
+    }
+
+    /* ZULAL PAGE */
+    .zulal-wrapper .accomodation-carousel h1.fontsize-40 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .wellness {
+        padding-top: 130px;
+    }
+
+    .wellness .content-section p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .destination .coverimg {
+        margin-top: 45px;
+    }
+
+    /* PAGE 2 */
+    .chivasom-wrapper .accomodation .accomodation-carousel .content h1.fontsize-40 {
+        font-size: 28px;
+    }
+
+    .chivasom-wrapper .accomodation .accomodation-carousel .content p.fontsize-20 {
+        font-size: 16px;
+    }
+
+    /* ZULAL */
+
+    .zulal-wrapper .sustainability h2,
+    .zulal-wrapper .wellness .col-content-section h2 {
+        font-size: 32px;
+    }
+
+    .zulal-wrapper .wellness .content-section p {
+        font-size: 18px;
+    }
+
+    .zulal-wrapper .BlockTitle {
+        font-size: 32px;
+    }
+
+}
